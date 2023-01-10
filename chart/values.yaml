@@ -1,0 +1,6 @@
+appName: explore-california-website
+imageName: marv254/myrepo:explorecalifornia-1.0
+replicas: 1
+serviceName: explorecalifornia-svc
+sourcePort: 80
+host: explorecalifornia.com
