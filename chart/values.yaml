@@ -1,6 +1,7 @@
-appName: explore-california-website
+appName: explore-marv-technology
 imageName: marv254/myrepo:explorecalifornia-1.0
 replicas: 1
-serviceName: explorecalifornia-svc
-sourcePort: 80
-host: explorecalifornia.com
+serviceName: mav-svc
+sourcePort: 8080
+customPort: 80
+host: marv.tech

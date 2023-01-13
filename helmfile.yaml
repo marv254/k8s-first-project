@@ -1,0 +1,8 @@
+releases:
+  - chart: chart
+    cleanupOnFail: false
+    devel: false
+    name: marv-website
+    skipDeps: false
+    values:
+      - chart/values.yaml

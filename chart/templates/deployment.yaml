@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - image: {{ .Values.imageName }}
-        name: {{ .Values.appName }}-{{ randAlphaNum 5 | lower }}
+        name: {{ .Values.appName }}-{{ randAlphaNum 10 | lower }}
         resources: {}
 status: {}
 
